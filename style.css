@@ -120,6 +120,10 @@ header {
 .copyright p{
   color: white;
 }
+.open{
+  
+  color:#1c2834;
+}
 .logo {
   text-transform: uppercase;
   font-size: 1.4rem;
