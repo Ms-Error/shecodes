@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel ="icon" type ="image/png" href ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrU9FIxNnsdTRjNxqUcG28TDKuIePGXRdLpg&usqp=CAU">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+</head>
+<body>
+    <div id ="preloader"></div>
+  
+    <header>
+        <a href="#home" class="logo">Pranavi</a>
+        <div id="menu-icon" class="fa fa-bars"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+ 
+    <section class="home" id="home">
+
+        <div id="particles-js"></div>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/h11VGG-ElpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/h11VGG-ElpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/h11VGG-ElpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <div class="content">
+            <img class="tilt" src="Pranavi Tadivalasa (1).jpeg" alt="">
+            <h3> Pranavi <span>Tadivalasa</span> </h3>
+            <p> Sophomore at IIITA </span> </p>
+        </div>
+    
+    </section>
+    
+   
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Pranavi Tadivalasa (1).jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h1>Pranavi Tadivalasa</h1>
+            <p>I am currently pursuing my undergrad at IIITA. I am quite an Entusiast. I like to explore new things and I believe being different is what we need rather than being better. A creative mind Person. I also have keen interest in designing websites and playing with circuits.</p>
+            <p>This Portfolio represents all my achievements, my projects which i have done till far and about me. I like to dance in free time , play piano , fun with skates and many more. I feel genuine learning comes through experience , view the life as a continuous learning experience. </p>
+           
+        </div>
+    </section>
+
+  
+    <section class="portfolio" id="portfolio">
+        
+        <div class="heading">
+            <h1>My Projects</h1>
+        </div>
+
+      
+        <div class="portfolio-content">
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="Arduino-Motion-Detector_0.jpg" alt="">
+                    
+                </div>
+                <h2>Motion Detector</h2>
+                <p>The system uses a PIR sensor to detect motion and send to the Arduino, which detects any moment in the room or around the motion sensor. which in turn triggers a buzzer and LED simultaneously.</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="iii.jpeg" alt="">
+                    
+                </div>
+                <h2>Using GNU Radio</h2>
+                <p>AM signals are created with help of this software which creats an AM transmittor and Receiver. the signal is sent via a socket to the second section to demodulate the signal. The Graphical User Interface is used to create it.</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="diabetes.jpg" alt="">
+                    
+                </div>
+                <h2>diabetes Detection</h2>
+                <p> Machine learning can help people make a preliminary judgment using decision tree, random forest and neural network about diabetes according to their daily physical examination data.</p>
+            </div>
+        </div>
+    </section>
+
+  
+   
+
+   
+   
+
+    <!-- footer -->
+    
+    <div class="copyright">
+        <p>&#169; All Rights Reserved by Pranavi</p>
+        <br>
+      <p class ="icon">  
+         <a class ="ic" href ="https://www.facebook.com" target="_blank"><i class ="fa fa-facebook"></i></a> 
+         <a class ="ic" href ="https://www.instagram.com" target="_blank"><i class ="fa fa-instagram"></i></a> 
+         <a class ="ic" href ="https://www.linkedin.com" target="_blank"><i class ="fa fa-linkedin"></i></a> 
+         <a class ="ic" href ="https://www.github.com"target="_blank"><i class ="fa fa-github"></i></a> 
+        
+       </p>
+    </div>
+    
+ 
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        });
+    </script>
+    <script src="particle.js"></script>
+<script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
